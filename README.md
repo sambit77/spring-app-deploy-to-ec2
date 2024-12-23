@@ -21,7 +21,7 @@ A demo springboot application deployed on EC2
    chmod 0400 MySpringbootServerLey.pem 
    ssh -i MySpringbootServerLey.pem ec2-user@ec2-13-126-226-7.ap-south-1.compute.amazonaws.com
    ```
-L1: Give proper access to .pem key file (which will be downloaded suring EC2 instance creation)
+L1: Give proper access to .pem key file (which will be downloaded spring EC2 instance creation)
 L2: SSH into EC-2 instance using the downloaded key and EC2 public ipv4 dns
 7. Install java on EC2 machine `sudo dnf install java-17-amazon-corretto`
 8. Verify java installation `javac -version`
